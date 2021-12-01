@@ -105,3 +105,6 @@ Sorge:
 - Die Activities sollten mehr Punkte bringen wenn sie mehr Wert schaffen
 - Fuer den PO ist Risiko-Reduzierung nicht greifbar
 - Wenn das Risiko in Euro ermittelt werden kann wird man sich vermutlich trotzdem fuer ein Feature entscheiden, auch wenn es weniger Geld einbringt
+
+## Weitere Ideen:
+- Ein Pfad koennte der Aufbau und die Teilnahme einer Gilde sein

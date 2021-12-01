@@ -1,98 +1,98 @@
-ACTIVITY,NOTE
-continuously-improve-your-security-belt-rank,in Risk Leadership as "continuously improve"
+ACTIVITY,NOTE,branch
+risk-leadership,refactor (include continuously improve; onboard management; review activities)
+continuously-improve-your-security-belt-rank,in Risk Leadership as 'continuously improve'
 do-not-start-alone,delete
 get-to-know-your-security-policies,delete
 onboard-management-in-security,in Risk Leadership
-review-security-belt-activities,in Risk Leadership as "review activities"
+review-security-belt-activities,in Risk Leadership as 'review activities'
 think-about-where-the-journey-is-going,delete
-continuous-integration,delete (this can be a requirement for other activities but shouldn't be part of the model
+continuous-integration,delete (this can be a requirement for other activities but shouldn't be part of the model)
 definition-of-quality-gates,delete meta-activity (FIXME build in corresponding acitvities -> how to review)
 false-positive-treatment,delete meta-activity
 security-code-review
 security-consulting-on-request
-simple-mob-hacking
-test-components-regarding-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client])
-test-client-side-components-with-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client])
-unit-tests-for-security-features
+simple-mob-hacking,awareness activity,teamwork
+regular-advanced-mob-hacking,does this have to be regular or is this also awareness?,teamwork
+creation-of-evil-user-stories,as awareness activity (TODO ask Sven for feedback),teamwork
+test-components-regarding-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies
+test-client-side-components-with-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies
+nightly-dependency-version-upgrade,,dependencies
+ensure-only-using-components-which-are-under-active-development,,dependencies
 backup-before-deployment
-creation-of-evil-user-stories,as awareness activity (TODO ask Sven for feedback)
-follow-security-by-design-principles,maybe too big?
-logging-of-security-events
+logging-of-security-events,,incident
 nightly-test-libraries-with-known-vulnerabilities
 regular-security-training-for-everyone,delete (model should not include trainings)
 regular-security-training-of-security-champions,delete (model should not include trainings)
 same-artifact-for-environments
-shared-security-services
-simple-visualization-of-defects
-team-has-a-security-champion
-ensure-only-using-components-which-are-under-active-development
-environment-dependent-configuration-parameters
-integration-of-vulnerability-issues-into-the-development-process
-nightly-dependency-version-upgrade
-prevent-secrets-in-source-code
-static-analysis-for-all-self-written-components
-test-container-images-regarding-known-vulnerabilities
-test-for-default-credentials
-test-security-configuration-of-cloud-environments
-test-security-configuration-of-infrastructure
+shared-security-services,,community
+simple-visualization-of-defects,,teamwork
+team-has-a-security-champion,,teamwork
+environment-dependent-configuration-parameters,,config
+integration-of-vulnerability-issues-into-the-development-process,,teamwork
+prevent-secrets-in-source-code,,coding+secrets
+test-container-images-regarding-known-vulnerabilities,,dependencies
+test-for-default-credentials,,coding+config
+test-security-configuration-of-cloud-environments,,config
+test-security-configuration-of-infrastructure,,config
 treatment-of-vulnerabilities-with-severity-high-or-higher,delete meta-activity
-api-fuzzing
-code-review
-conduction-of-threat-modeling
-dynamic-scan-for-security-vulnerabilities
+api-fuzzing,,api
+unit-tests-for-security-features,,api
+code-review,,coding
+load-tests,,coding
+static-analysis-for-all-self-written-components,refactor (do not differenciate between server/client),coding
+Static analysis for important client side components,refactor (do not differenciate between server/client),coding
+follow-security-by-design-principles,maybe too big?,coding+api
+portscan,,network
+conduction-of-threat-modeling,,network
+dynamic-scan-for-security-vulnerabilities,,network
 get-to-know-your-design-flaws
-load-tests
-logging-concept
-regular-advanced-mob-hacking
-risk-leadership
+logging-concept,rename 'Profound Logging',incident
 testing-for-bypassing-authentication-schema
 Treatment of Vulnerabilities With Severity Medium,delete meta-activity
-Dynamic Scan With Different Roles
-Creation of Application Metrics
-Simple Visualization of Metrics
-Targeted Alerting on Metric Violations
-Limit access to application secrets according to the least privilege principle
-Infrastructure as Code
+Dynamic Scan With Different Roles,,network
+Creation of Application Metrics,,metrics
+Simple Visualization of Metrics,,metrics
+Targeted Alerting on Metric Violations,,metrics
+Limit access to application secrets according to the least privilege principle,,secrets
+Infrastructure as Code,delete (this can be a requirement for other activities but shouldn't be part of the model)
 Test the definition of virtualized environments
 Coverage analysis
-Enrich Threat model with Checks for Security by Design Principles
+Enrich Threat model with Checks for Security by Design Principles,delete (reicht hier nicht wenn 'Security by Design' nach 'Threat model' kommt?)
 Know your Attack Surface
-Defined deployment process
+Defined deployment process,delete (ergibt sich durch die activities automatisch)
 Usage of trusted images
-Security-Lessoned-Learned
+Security-Lessoned-Learned,,teamwork+community
 Conduction of collaborative team security checks
-Creation of System Metrics
-Coverage and control metrics
-Visualized logging
-Coverage of more input vectors
-Static analysis for important client side components
-Usage of multiple scanners
-"Deactivating of unneeded tests
-Application specific tool settings"
+Creation of System Metrics,,metrics
+Coverage and control metrics,,metrics
+Visualized logging,,incident+teamwork
+Coverage of more input vectors,,api
+Usage of multiple scanners,,network
+Deactivating of unneeded tests Application specific tool settings
 Treatment of defects with medium accuracy and any criticality,delete meta-activity
-Advanced visualization of defects
+Advanced visualization of defects,,teamwork
 Test network segmentation
 Do you base your design on available reference architectures?
-Do you perform denial of service and security stress testing?
+Do you perform denial of service and security stress testing?,,network
 Testing for Weak Password Change or Reset Functionalities
 Testing for Browser Cache Weaknesses
-Signing of code
+Signing of code,delete value?
 Handover of confidential parameters
 Definition of simple BCDR practices for critical components
-Advanced availability and stability metrics
-Advanced we application metrics
-Defense metrics
-Screens with metric visualization
-Usage of multiple scanners
-Static analysis for all components/libraries
-Smoke Test
-Practice proper lifecycle management for application secrets
-Testing for Weaker Authentication in Alternative Channel
+Advanced availability and stability metrics,,metrics
+Advanced web application metrics,,metrics
+Defense metrics,,metrics
+Screens with metric visualization,,metrics
+Usage of multiple scanners,delete value?
+Static analysis for all components/libraries,delete (nach Krebs heilen und Weltfrieden oder vorher?)
+Smoke Test,delete value?
+Practice proper lifecycle management for application secrets,,config+secrets
+Testing for Weaker Authentication in Alternative Channel,,network
 Testing for Bypassing Authorization Schema
-Business Logic Testing
-Defined build process
+Business Logic Testing,delete value?
+Defined build process,delete (ergibt sich durch die activities automatisch)
 Inventory of running artifacts
-Metrics are combined with tests
+Metrics are combined with tests,,metrics
 Reduction of the attack surface
 Coverage of sequential operations
 Security integration tests for important components / Integration/E2E tests for security features
