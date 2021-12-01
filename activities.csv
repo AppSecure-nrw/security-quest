@@ -1,0 +1,101 @@
+ACTIVITY,NOTE
+continuously-improve-your-security-belt-rank,in Risk Leadership as "continuously improve"
+do-not-start-alone,delete
+get-to-know-your-security-policies,delete
+onboard-management-in-security,in Risk Leadership
+review-security-belt-activities,in Risk Leadership as "review activities"
+think-about-where-the-journey-is-going,delete
+continuous-integration,delete (this can be a requirement for other activities but shouldn't be part of the model
+definition-of-quality-gates,delete meta-activity (FIXME build in corresponding acitvities -> how to review)
+false-positive-treatment,delete meta-activity
+security-code-review
+security-consulting-on-request
+simple-mob-hacking
+test-components-regarding-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client])
+test-client-side-components-with-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client])
+unit-tests-for-security-features
+backup-before-deployment
+creation-of-evil-user-stories,as awareness activity (TODO ask Sven for feedback)
+follow-security-by-design-principles,maybe too big?
+logging-of-security-events
+nightly-test-libraries-with-known-vulnerabilities
+regular-security-training-for-everyone,delete (model should not include trainings)
+regular-security-training-of-security-champions,delete (model should not include trainings)
+same-artifact-for-environments
+shared-security-services
+simple-visualization-of-defects
+team-has-a-security-champion
+ensure-only-using-components-which-are-under-active-development
+environment-dependent-configuration-parameters
+integration-of-vulnerability-issues-into-the-development-process
+nightly-dependency-version-upgrade
+prevent-secrets-in-source-code
+static-analysis-for-all-self-written-components
+test-container-images-regarding-known-vulnerabilities
+test-for-default-credentials
+test-security-configuration-of-cloud-environments
+test-security-configuration-of-infrastructure
+treatment-of-vulnerabilities-with-severity-high-or-higher,delete meta-activity
+api-fuzzing
+code-review
+conduction-of-threat-modeling
+dynamic-scan-for-security-vulnerabilities
+get-to-know-your-design-flaws
+load-tests
+logging-concept
+regular-advanced-mob-hacking
+risk-leadership
+testing-for-bypassing-authentication-schema
+Treatment of Vulnerabilities With Severity Medium,delete meta-activity
+Dynamic Scan With Different Roles
+Creation of Application Metrics
+Simple Visualization of Metrics
+Targeted Alerting on Metric Violations
+Limit access to application secrets according to the least privilege principle
+Infrastructure as Code
+Test the definition of virtualized environments
+Coverage analysis
+Enrich Threat model with Checks for Security by Design Principles
+Know your Attack Surface
+Defined deployment process
+Usage of trusted images
+Security-Lessoned-Learned
+Conduction of collaborative team security checks
+Creation of System Metrics
+Coverage and control metrics
+Visualized logging
+Coverage of more input vectors
+Static analysis for important client side components
+Usage of multiple scanners
+"Deactivating of unneeded tests
+Application specific tool settings"
+Treatment of defects with medium accuracy and any criticality,delete meta-activity
+Advanced visualization of defects
+Test network segmentation
+Do you base your design on available reference architectures?
+Do you perform denial of service and security stress testing?
+Testing for Weak Password Change or Reset Functionalities
+Testing for Browser Cache Weaknesses
+Signing of code
+Handover of confidential parameters
+Definition of simple BCDR practices for critical components
+Advanced availability and stability metrics
+Advanced we application metrics
+Defense metrics
+Screens with metric visualization
+Usage of multiple scanners
+Static analysis for all components/libraries
+Smoke Test
+Practice proper lifecycle management for application secrets
+Testing for Weaker Authentication in Alternative Channel
+Testing for Bypassing Authorization Schema
+Business Logic Testing
+Defined build process
+Inventory of running artifacts
+Metrics are combined with tests
+Reduction of the attack surface
+Coverage of sequential operations
+Security integration tests for important components / Integration/E2E tests for security features
+Testing for Browser Cache Weaknesses
+Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component and estimate their end of life?
+Coverage of client side dynamic components
