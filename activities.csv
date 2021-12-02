@@ -1,4 +1,4 @@
-ACTIVITY,NOTE,branch
+ACTIVITY,NOTE,BRANCH
 risk-leadership,refactor (include continuously improve; onboard management; review activities)
 continuously-improve-your-security-belt-rank,in Risk Leadership as 'continuously improve'
 do-not-start-alone,delete
@@ -7,20 +7,21 @@ onboard-management-in-security,in Risk Leadership
 review-security-belt-activities,in Risk Leadership as 'review activities'
 think-about-where-the-journey-is-going,delete
 continuous-integration,delete (this can be a requirement for other activities but shouldn't be part of the model)
-definition-of-quality-gates,delete meta-activity (FIXME build in corresponding acitvities -> how to review)
-false-positive-treatment,delete meta-activity
-security-code-review
+definition-of-quality-gates,delete (meta-activity) (FIXME build in corresponding acitvities -> how to (review))
+false-positive-treatment,delete (meta-activity)
+security-code-review,,coding
 security-consulting-on-request
 simple-mob-hacking,awareness activity,teamwork
 regular-advanced-mob-hacking,does this have to be regular or is this also awareness?,teamwork
 creation-of-evil-user-stories,as awareness activity (TODO ask Sven for feedback),teamwork
 test-components-regarding-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies
 test-client-side-components-with-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies
+nightly-test-libraries-with-known-vulnerabilities,,dependencies
 nightly-dependency-version-upgrade,,dependencies
 ensure-only-using-components-which-are-under-active-development,,dependencies
+Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component and estimate their end of life?,,dependencies
 backup-before-deployment
 logging-of-security-events,,incident
-nightly-test-libraries-with-known-vulnerabilities
 regular-security-training-for-everyone,delete (model should not include trainings)
 regular-security-training-of-security-champions,delete (model should not include trainings)
 same-artifact-for-environments
@@ -31,24 +32,24 @@ environment-dependent-configuration-parameters,,config
 integration-of-vulnerability-issues-into-the-development-process,,teamwork
 prevent-secrets-in-source-code,,coding+secrets
 test-container-images-regarding-known-vulnerabilities,,dependencies
-test-for-default-credentials,,coding+config
+test-for-default-credentials,,coding+config+secrets
 test-security-configuration-of-cloud-environments,,config
 test-security-configuration-of-infrastructure,,config
-treatment-of-vulnerabilities-with-severity-high-or-higher,delete meta-activity
+treatment-of-vulnerabilities-with-severity-high-or-higher,delete (meta-activity)
 api-fuzzing,,api
 unit-tests-for-security-features,,api
+testing-for-bypassing-authentication-schema,,api
 code-review,,coding
 load-tests,,coding
 static-analysis-for-all-self-written-components,refactor (do not differenciate between server/client),coding
 Static analysis for important client side components,refactor (do not differenciate between server/client),coding
-follow-security-by-design-principles,maybe too big?,coding+api
+follow-security-by-design-principles,maybe too big?,coding+api+network
 portscan,,network
 conduction-of-threat-modeling,,network
 dynamic-scan-for-security-vulnerabilities,,network
-get-to-know-your-design-flaws
-logging-concept,rename 'Profound Logging',incident
-testing-for-bypassing-authentication-schema
-Treatment of Vulnerabilities With Severity Medium,delete meta-activity
+get-to-know-your-design-flaws,,coding+api+network
+logging-concept,rename (to 'Profound Logging'),incident
+Treatment of Vulnerabilities With Severity Medium,delete (meta-activity)
 Dynamic Scan With Different Roles,,network
 Creation of Application Metrics,,metrics
 Simple Visualization of Metrics,,metrics
@@ -56,9 +57,9 @@ Targeted Alerting on Metric Violations,,metrics
 Limit access to application secrets according to the least privilege principle,,secrets
 Infrastructure as Code,delete (this can be a requirement for other activities but shouldn't be part of the model)
 Test the definition of virtualized environments
-Coverage analysis
+Coverage analysis,delete (meta-acitivity?)
 Enrich Threat model with Checks for Security by Design Principles,delete (reicht hier nicht wenn 'Security by Design' nach 'Threat model' kommt?)
-Know your Attack Surface
+Know your Attack Surface,delete (ist das mehr als Threat modeling?)
 Defined deployment process,delete (ergibt sich durch die activities automatisch)
 Usage of trusted images
 Security-Lessoned-Learned,,teamwork+community
@@ -68,34 +69,33 @@ Coverage and control metrics,,metrics
 Visualized logging,,incident+teamwork
 Coverage of more input vectors,,api
 Usage of multiple scanners,,network
-Deactivating of unneeded tests Application specific tool settings
-Treatment of defects with medium accuracy and any criticality,delete meta-activity
+Deactivating of unneeded tests,delete (meta-activity)
+Application specific tool settings,delete (what? meta-activity?)
+Treatment of defects with medium accuracy and any criticality,delete (meta-activity)
 Advanced visualization of defects,,teamwork
-Test network segmentation
+Test network segmentation,,network
 Do you base your design on available reference architectures?
 Do you perform denial of service and security stress testing?,,network
 Testing for Weak Password Change or Reset Functionalities
 Testing for Browser Cache Weaknesses
-Signing of code,delete value?
-Handover of confidential parameters
-Definition of simple BCDR practices for critical components
+Signing of code,delete (value?)
+Handover of confidential parameters,,config+secrets
+Definition of simple BCDR practices for critical components,,teamwork
 Advanced availability and stability metrics,,metrics
 Advanced web application metrics,,metrics
 Defense metrics,,metrics
 Screens with metric visualization,,metrics
-Usage of multiple scanners,delete value?
+Usage of multiple scanners,delete (value?)
 Static analysis for all components/libraries,delete (nach Krebs heilen und Weltfrieden oder vorher?)
-Smoke Test,delete value?
+Smoke Test,delete (value for security?)
 Practice proper lifecycle management for application secrets,,config+secrets
-Testing for Weaker Authentication in Alternative Channel,,network
-Testing for Bypassing Authorization Schema
-Business Logic Testing,delete value?
+Testing for Weaker Authentication in Alternative Channel,,network+api
+Business Logic Testing,delete (value?)
 Defined build process,delete (ergibt sich durch die activities automatisch)
-Inventory of running artifacts
+Inventory of running artifacts,delete (braucht man das wirklich wenn man CI am start hat?)
 Metrics are combined with tests,,metrics
 Reduction of the attack surface
-Coverage of sequential operations
+Coverage of sequential operations,delete (ist das gleiche wie Business Logic Testing)
 Security integration tests for important components / Integration/E2E tests for security features
 Testing for Browser Cache Weaknesses
-Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component and estimate their end of life?
-Coverage of client side dynamic components
+Coverage of client side dynamic components,delete (do not differenciate between server/client)
