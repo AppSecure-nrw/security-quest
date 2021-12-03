@@ -108,3 +108,6 @@ Sorge:
 
 ## Weitere Ideen:
 - Ein Pfad koennte der Aufbau und die Teilnahme einer Gilde sein
+- Activities sind eigentlich Capabilities
+  - Die Motivation und der Wert sollte im Fordergrund stehen
+  - Die eigentlichen Aktivitaeten mehr beispielhaft an zweiter Stelle (Tools sind keine Further Readerings)
