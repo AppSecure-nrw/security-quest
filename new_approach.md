@@ -108,3 +108,4 @@ Sorge:
 
 ## Weitere Ideen:
 - Ein Pfad koennte der Aufbau und die Teilnahme einer Gilde sein
+- Wie erklärt eine Security Abteilung (einer Bank/Versicherung), dass die Teams selbst Verantwortlich für Security sind?
