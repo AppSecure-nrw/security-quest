@@ -33,6 +33,20 @@
 
 - to be continued
 
+## Sven
+- Self-empowering teams to continuously work on improving themselves regarding security
+- The model should not overwhelm the teams (and thus scare them away), but instead motivate them to work on it
+- Flexibility in choosing next activities based on the teams interests
+- Providing guidance for the teams in choosing the next activity
+- Providing guidance for team specific rough minimum target states that a team should be capable of
+- No additional trainer input should be necessary to understand and work with the model
+- Supporting teams that want to work agile (but may still be at the start/during the transformation process)
+- The model should be able to cover different domains (e.g., mobile, embedded, automation, ...)
+- The model should improve transparancy on the teams security skills
+- The model should fasciliatate sharing knowledge, i.e., incorporate the security guild (establishment, activities, etc.)
+- Each activity should be understandable for the team as easy as possible, i.e., how it can be immplemented, what problems might be, what the expected benefits are
+- The model needs to be continuously improved, feedback for activities needs to be an integral part
+
 
 
 
