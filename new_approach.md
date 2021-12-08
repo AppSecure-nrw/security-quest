@@ -109,3 +109,5 @@ Sorge:
 ## Weitere Ideen:
 - Ein Pfad koennte der Aufbau und die Teilnahme einer Gilde sein
 - Wie erklärt eine Security Abteilung (einer Bank/Versicherung), dass die Teams selbst Verantwortlich für Security sind?
+- Security Champion might be an anti-pattern (to be challenged)
+- train (parts of) the team for branches of the model
