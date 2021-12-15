@@ -42,7 +42,8 @@ general: we should distinguish between should, shall, and must
 - The model should faciliatate sharing knowledge
   - teams that use our model can share their knowledge to external persons or teams
   - giving talks and writing articles
-- Start with common technologies: web, mobile, cloud
+- Stefan: The model is as technology-independent as possible.
+  - Start with common technologies where necessary (e.g., to give examples): web, mobile, desktop, cloud
 
 # Later (we are not smart enough for that NOW)
 - Providing guidance for team specific rough minimum target states that a team should be capable of
