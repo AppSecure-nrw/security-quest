@@ -111,3 +111,6 @@ Sorge:
 - Activities sind eigentlich Capabilities
   - Die Motivation und der Wert sollte im Fordergrund stehen
   - Die eigentlichen Aktivitaeten mehr beispielhaft an zweiter Stelle (Tools sind keine Further Readerings)
+- Wie erklärt eine Security Abteilung (einer Bank/Versicherung), dass die Teams selbst Verantwortlich für Security sind?
+- Security Champion might be an anti-pattern (to be challenged)
+- train (parts of) the team for branches of the model
