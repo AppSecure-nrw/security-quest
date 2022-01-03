@@ -1,0 +1,17 @@
+- Team Empowerment (self improvement, team responsibility)
+  - Risk Leadership  (make own decisions)
+  - Onboard Management in Security
+  - Continuously Improve
+  - Review Activities
+- Handling of Known Vulnerabilities on Request
+  - Test Server Side Libraries Regarding Known Vulnerabilities
+  - Test Client Side Libraries Regarding Known Vulnerabilities
+- Continuous Handling of Known Vulnerabilities
+  - Nightly Test Components Regarding Known Vulnerabilities
+- Continuous Update of Dependencies
+  - Nightly Dependency Version Upgrade
+- Usage of Well Maintained Software
+  - Ensure Only Using Components Which Are Under Active Development
+  - Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life?
+- Identifying of Vulnerabilities in  Source Code
+  - Security Code Review
