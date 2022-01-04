@@ -118,3 +118,44 @@ Sorge:
 ## Weitere Ideen:
 - Eine Capability muss sowohl mehr Transparenz schaffen, als auch die Findings durch eine Handlung beheben.
 - Eine Capability sollte so klein wie moeglich sein, so dass noch ein Value berechnet werden kann.
+
+
+## Security Quest Produktdefinition (Wir brauchen nicht schnellere Pferde)
+
+Zielgruppe: Jedes DevOps-Team (Hourses), das google kann und den Anspruch hat qualitativ gute Software zu bauen
+Eine Anleitung schaffen, die einen Weg aufzeigt wie diese Teams selber Security "machen können"
+Alle Prinzipien/Ansätze die existieren um Software sicher zu machen sollen in Anleitung vorkommen, damit die Zielgruppe selber entscheiden kann*, ob sie dies nutzen oder nicht
+ - * Die Entscheidung einen Consultant treffen zu lassen, der onRequest das Team unterstützt skaliert nicht, weil es zu wenig Consultans gibt.
+   - Man könnte Securitsy Champions ausbilden, diese sind aber nicht sofort Consultants
+
+### Nicht-Definitionen
+- Schuhlung nicht
+- Belts mit Beschreibung nicht
+- Anti-Patterns (die aber funktioniert)
+  - Jemand hat ein Beispiel und macht einen Termin und hilft beim Einbauen
+  - Maturity Model+Consultancy
+
+SelfService: wie die AWS API. Nur über die API muss es möglich sein das bei mir einzubauen
+
+Was brauchen die Entwickler aus den Capability Beschreibungen?
+Was brauchen die POs aus den Capability Beschreibungen?
+
+### Zielgruppe: Entwickler
+ - die Googlen können
+ - von wichtiger Software
+ - ich will Qualtitative gute Software bauen
+
+Testgruppe: die guten AXA Entwickler
+
+Was hilft diesen Entwicklern (die Googlen können):
+ - Eine Übersicht/Liste/Pfad ob man alles abgedeckt hat
+ - was man als nächstes machen sollte
+ - Ein Quellenverzeichnis als Startpunkt für eine eigene Googlesuche
+
+### Ansatz
+1. Voraussetzung: In dieser Iteration will ich mich verbessern -> in zwei Wochen Fenster habe ich x Stunden Zeit
+1. Ich lerne wie es geht -> ICAP Framework (Lerntypen): Lesen < Ändern(Markieren) < Pairing/Disskussion
+1. **Ich wende das gelernte an**.
+  - In Katas in Pairs/Mob/alleine
+  - https://owasp.org/www-project-devslop/
+3. Ich stoße auf eigene Probleme, die ich selber / mit dem Pair / in der Gilde gelöst bekomme
