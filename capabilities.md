@@ -3,6 +3,8 @@
   - Onboard Management in Security
   - Continuously Improve
   - Review Activities
+  - Self-improvement use "Security-Chaos-Monkey" to get challenged
+    - Incentive for teams who get better (metrics)
 - Handling of Known Vulnerabilities on Request
   - Test Server Side Libraries Regarding Known Vulnerabilities
   - Test Client Side Libraries Regarding Known Vulnerabilities
