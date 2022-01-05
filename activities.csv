@@ -17,20 +17,6 @@ Advanced visualization of defects,,teamwork
 Definition of simple BCDR practices for critical components,,teamwork
 team-has-a-security-champion,delete (wert?),teamwork
 
-security-code-review,,coding
-prevent-secrets-in-source-code,,coding+secrets,lm
-code-review,,coding
-static-analysis-for-all-self-written-components,refactor (do not differenciate between server/client),coding,lm
-Static analysis for important client side components,refactor (do not differenciate between server/client),coding,lm
-
-test-components-regarding-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies,lm
-test-client-side-components-with-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies,lm
-nightly-test-libraries-with-known-vulnerabilities,,dependencies,lm
-nightly-dependency-version-upgrade,,dependencies,lm
-ensure-only-using-components-which-are-under-active-development,,dependencies,lm
-Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component and estimate their end of life?,,dependencies
-test-container-images-regarding-known-vulnerabilities,,dependencies
-
 backup-before-deployment,refactor (backup ist nicht immer die beste strategie),deployment
 same-artifact-for-environments,,deployment,m
 
@@ -45,15 +31,6 @@ Handover of confidential parameters,,config+secrets
 Practice proper lifecycle management for application secrets,,config+secrets
 test-for-default-credentials,,config+secrets
 
-api-fuzzing,,api,m
-testing-for-bypassing-authentication-schema,,api
-Coverage of more input vectors,,api
-dynamic-scan-for-security-vulnerabilities,,network,l
-Dynamic Scan With Different Roles,,network,l
-Do you perform denial of service and security stress testing?,,network
-Testing for Weaker Authentication in Alternative Channel,,network+api
-unit-tests-for-security-features,,network+coding+api
-load-tests,,network+coding
 
 Creation of Application Metrics,,metrics+incident
 Simple Visualization of Metrics,,metrics+incident
@@ -68,13 +45,41 @@ Defense metrics,,metrics+incident
 Screens with metric visualization,,metrics+incident
 Metrics are combined with tests,,metrics+incident
 
+Limit access to application secrets according to the least privilege principle,,secrets
+
+DONE
+
+security-code-review,,coding
+prevent-secrets-in-source-code,,coding+secrets,lm
+code-review,,coding
+static-analysis-for-all-self-written-components,refactor (do not differenciate between server/client),coding,lm
+Static analysis for important client side components,refactor (do not differenciate between server/client),coding,lm
+
+test-components-regarding-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies,lm
+test-client-side-components-with-known-vulnerabilities,refactor (test location with most dependencies -> complete coverage [do not differenciate between server/client]),dependencies,lm
+nightly-test-libraries-with-known-vulnerabilities,,dependencies,lm
+nightly-dependency-version-upgrade,,dependencies,lm
+ensure-only-using-components-which-are-under-active-development,,dependencies,lm
+Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component and estimate their end of life?,,dependencies
+test-container-images-regarding-known-vulnerabilities,,dependencies
+
+api-fuzzing,,api,m
+testing-for-bypassing-authentication-schema,,api
+Coverage of more input vectors,,api
+dynamic-scan-for-security-vulnerabilities,,network,l
+Dynamic Scan With Different Roles,,network,l
+Do you perform denial of service and security stress testing?,,network
+Testing for Weaker Authentication in Alternative Channel,,network+api
+unit-tests-for-security-features,,network+coding+api
+load-tests,,network+coding
+
 shared-security-services,refactor (nutze service provider mit der richtigen abstraktion),design
 get-to-know-your-design-flaws,,coding+api+network+design,l
 follow-security-by-design-principles,maybe too big?,coding+api+network+design,lm
 conduction-of-threat-modeling,,network+design,lm
 Test network segmentation,,network+design
 
-Limit access to application secrets according to the least privilege principle,,secrets
+TODO
 
 Do you base your design on available reference architectures?
 Reduction of the attack surface
