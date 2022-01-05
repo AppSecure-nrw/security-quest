@@ -144,6 +144,7 @@ Was brauchen die POs aus den Capability Beschreibungen?
  - die Googlen können
  - von wichtiger Software
  - ich will Qualtitative gute Software bauen
+ - die sich Security annehmen **wollen** NICHT: Versuchen durch Angst, Furcht, Organisationstransformation Mitarbeiter zu motivieren Security zu machen.
 
 Testgruppe: die guten AXA Entwickler
 
