@@ -2,6 +2,14 @@
 
 general: we should distinguish between should, shall, and must
 
+# Zielgruppe:
+Entwickler
+- die Googlen können
+- von wichtiger Software
+- ich will Qualtitative gute Software bauen
+- die sich Security annehmen wollen NICHT: Versuchen durch Angst, Furcht, Organisationstransformation Mitarbeiter zu motivieren Security zu machen.
+
+
 ## To be discussed
 - Levels / Badges should be given to individuals as well as teams (in order to motivate them)
   - Thorsten and Stefan agree in general, but are these levels / badges only for a singular actitivey but also for multiple activities (multiple act. in different paths / at the same path)? Are the belts an example for levels/badges?
