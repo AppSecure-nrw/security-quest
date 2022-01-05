@@ -55,3 +55,16 @@
   - Do you perform denial of service and security stress testing?
 5. Network Resilience
 6. Infrastructure Resilience
+
+# Design
+1. Threat Modeling
+  - conduction-of-threat-modeling
+2. Security by Design Principles
+  - get-to-know-your-design-flaws
+  - follow-security-by-design-principles
+  - shared-security-services
+2. DIST (Dynamic Infrastructure Security Testing)
+  - Test network segmentation
+2. Infrastructure as Code
+3. SIST (Static Infrastructure Security Testing)
+3. Threat Modeling from IaC
