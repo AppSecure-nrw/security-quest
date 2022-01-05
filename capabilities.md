@@ -6,6 +6,8 @@
   - Empowerment path
     - Self-improvement use "Security-Chaos-Monkey" to get challenged
       - Incentive for teams who get better (metrics)
+    - ctf on other teams systems
+    - give feedback to everyone in the guilde to keep everyone honest
 - Handling of Known Vulnerabilities on Request
   - Test Server Side Libraries Regarding Known Vulnerabilities
   - Test Client Side Libraries Regarding Known Vulnerabilities
