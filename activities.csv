@@ -1,6 +1,10 @@
 ACTIVITY,NOTE,BRANCH,mvp
 
 TODO,,resilience
+TODO build environment security,,
+TODO MFA,,
+
+# DONE
 
 risk-leadership,in 'Team Empowerment'; refactor (include continuously improve; onboard management; review activities),initial,lm
 continuously-improve-your-security-belt-rank,in 'Team Empowerment' as 'continuously improve',initial,lm
@@ -15,14 +19,9 @@ simple-visualization-of-defects,,teamwork,l
 Security-Lessoned-Learned,,teamwork+community
 Advanced visualization of defects,,teamwork
 Definition of simple BCDR practices for critical components,,teamwork
-team-has-a-security-champion,delete (wert?),teamwork
 
 backup-before-deployment,refactor (backup ist nicht immer die beste strategie),deployment
 same-artifact-for-environments,,deployment,m
-
-logging-of-security-events,,incident,m
-logging-concept,rename (to 'Profound Logging'),incident,m
-Visualized logging,,incident+teamwork
 
 environment-dependent-configuration-parameters,,config+deployment,(m)
 test-security-configuration-of-cloud-environments,,config,m
@@ -31,23 +30,19 @@ Handover of confidential parameters,,config+secrets
 Practice proper lifecycle management for application secrets,,config+secrets
 test-for-default-credentials,,config+secrets
 
-
+logging-of-security-events,,incident,m
+logging-concept,rename (to 'Profound Logging'),incident,m
+Visualized logging,,incident+teamwork
 Creation of Application Metrics,,metrics+incident
 Simple Visualization of Metrics,,metrics+incident
 Targeted Alerting on Metric Violations,,metrics+incident
 Creation of System Metrics,,metrics+incident
 Coverage and control metrics,,metrics+incident
-Testing for Weak Password Change or Reset Functionalities
-Testing for Browser Cache Weaknesses
 Advanced availability and stability metrics,,metrics+incident
 Advanced web application metrics,,metrics+incident
 Defense metrics,,metrics+incident
 Screens with metric visualization,,metrics+incident
 Metrics are combined with tests,,metrics+incident
-
-Limit access to application secrets according to the least privilege principle,,secrets
-
-DONE
 
 security-code-review,,coding
 prevent-secrets-in-source-code,,coding+secrets,lm
@@ -81,6 +76,8 @@ Test network segmentation,,network+design
 
 TODO
 
+Testing for Weak Password Change or Reset Functionalities
+Testing for Browser Cache Weaknesses
 Do you base your design on available reference architectures?
 Reduction of the attack surface
 Security integration tests for important components / Integration/E2E tests for security features
@@ -118,3 +115,5 @@ Defined build process,delete (ergibt sich durch die activities automatisch)
 Inventory of running artifacts,delete (braucht man das wirklich wenn man CI am start hat?)
 Coverage of sequential operations,delete (ist das gleiche wie Business Logic Testing)
 Coverage of client side dynamic components,delete (do not differenciate between server/client)
+Limit access to application secrets according to the least privilege principle,delete (wtf),secrets
+team-has-a-security-champion,delete (wert?),teamwork
