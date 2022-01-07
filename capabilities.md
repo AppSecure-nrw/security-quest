@@ -10,18 +10,20 @@
     - integration-of-vulnerability-issues-into-the-development-process
 
 # Guild / Teamwork
-- Awareness
-  - simple-mob-hacking
-- TODO
+1. Provide Feedback
+  - give feedback to everyone in the guild to keep everyone honest
+  - participate in reviews of other teams
+2. Provide Lessons Learned
+  - Security-Lessoned-Learned (present within the guild)
+2. Understand Attack Vectors
+  - simple-mob-hacking (with browser, awareness)
+  - listen to LangSec presentations
+3. Be a Hacker
+  - regular-advanced-mob-hacking (with tools)
+4. Challenge Each Other
   - Self-improvement use "Security-Chaos-Monkey" to get challenged
     - Incentive for teams who get better (metrics)
     - ctf on other teams systems
-- TODO
-  - give feedback to everyone in the guild to keep everyone honest
-- TODO
-  - Security-Lessoned-Learned
-- TODO
-  - regular-advanced-mob-hacking
 
 # Dependencies
 1. Handling of Known Vulnerabilities on Request
