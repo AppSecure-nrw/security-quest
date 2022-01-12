@@ -4,6 +4,7 @@
   - Continuously Improve
   - Participate/Found a Security Quest Guild
   - Review Capabilities/Activities
+    - test for value
   - Risk Leadership
     - make own decisions
     - to fix or not to fix vulnerabilities
