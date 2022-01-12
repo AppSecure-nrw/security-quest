@@ -1,16 +1,19 @@
 # Initial
 - Team Empowerment (self improvement)
-  - Onboard Management in Security
   - Continuously Improve
-  - Participate/Found a Security Quest Guild
   - Review Capabilities/Activities
     - test for value
-  - Risk Leadership
-    - make own decisions
-    - to fix or not to fix vulnerabilities
-    - integration-of-vulnerability-issues-into-the-development-process
+  - integration-of-vulnerability-issues-into-the-development-process
+
+# DevOps Transformation
+1. Onboard Management in Security (refactor: split)
+2. Risk Leadership
+  - make own decisions
+  - to fix or not to fix vulnerabilities
 
 # Guild / Teamwork
+0. Participate/Found a Security Quest Guild
+  - in order to make reviews
 1. Provide Feedback
   - give feedback to everyone in the guild to keep everyone honest
   - participate in reviews of other teams
