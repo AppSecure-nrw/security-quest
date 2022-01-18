@@ -20,3 +20,13 @@
   - Graph zeigen
   - Erklären lassen
   - Überzeugt euer Team (uns) das Modell zu machen
+
+## Vergleichende Evaluierung
+
+- Was: Awesome List nehmen und schauen wie die Leute damit zurecht kommen
+- Ziel: Wert testen
+- Hypothese: Teams sehen keinen Wert in Tools Listen und dem Modell und machen deswegen nichts. Oder sehen die Teams keinen Wert in Security?
+
+## Kontrollgruppe
+
+SecChamps und Nicht-SecChamps

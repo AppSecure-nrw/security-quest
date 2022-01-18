@@ -17,3 +17,10 @@ What is the value of this for you and how would you measure it?
 ## Fix vulnerabilities
 
 integration-of-vulnerability-issues-into-the-development-process
+
+
+- Weg durch die Liste
+- Erfolge feiern
+- DoD
+- Value
+- Security Experte (Fallback) Prio 99
